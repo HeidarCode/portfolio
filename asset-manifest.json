@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HeidarCode/portfolio.git/static/css/main.11a1b1ee.css",
+    "main.js": "/HeidarCode/portfolio.git/static/js/main.f5b2d62a.js",
+    "static/js/453.438d9e50.chunk.js": "/HeidarCode/portfolio.git/static/js/453.438d9e50.chunk.js",
+    "static/media/b142dfeb-bcf2-467e-821b-c0e3a2c54de9.avif": "/HeidarCode/portfolio.git/static/media/b142dfeb-bcf2-467e-821b-c0e3a2c54de9.07ec5b36c618c100a1dd.avif",
+    "static/media/logo1.png": "/HeidarCode/portfolio.git/static/media/logo1.2df2399e48c80988fbfb.png",
+    "static/media/IMAGE.avif": "/HeidarCode/portfolio.git/static/media/IMAGE.42a222abf17f5854488c.avif",
+    "static/media/logo3.webp": "/HeidarCode/portfolio.git/static/media/logo3.9d61d2324eb831f84f56.webp",
+    "static/media/logo2.svg": "/HeidarCode/portfolio.git/static/media/logo2.53e5e7d8938e0f5486b90eb3954c84f2.svg",
+    "index.html": "/HeidarCode/portfolio.git/index.html",
+    "main.11a1b1ee.css.map": "/HeidarCode/portfolio.git/static/css/main.11a1b1ee.css.map",
+    "main.f5b2d62a.js.map": "/HeidarCode/portfolio.git/static/js/main.f5b2d62a.js.map",
+    "453.438d9e50.chunk.js.map": "/HeidarCode/portfolio.git/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11a1b1ee.css",
+    "static/js/main.f5b2d62a.js"
+  ]
+}
