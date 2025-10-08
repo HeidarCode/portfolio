@@ -1,0 +1,58 @@
+
+html, body , #root{
+  margin: 0;
+  padding: 0;
+  font-family: 'Vazirmatn', sans-serif; /* فونت فارسی */
+  direction: rtl; /* نمایش متن‌ها راست‌به‌چپ */
+  text-align: right;
+  background-color: #011627 !important; /* پس‌زمینه کلی سایت */
+  color: #eaeaea; /* رنگ متن پیش‌فرض */
+}
+
+/* استایل لینک‌ها */
+a {
+  text-decoration: none;
+  color: #2EC4B6; /* سبزآبی نئونی */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FFD166; /* طلایی */
+}
+
+/* تیترها */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  color: #FFD166;
+}
+
+/* پاراگراف‌ها */
+p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* دکمه‌ها */
+button {
+  font-family: inherit; 
+  border: none;
+  cursor: pointer;
+  background-color: #FFD166;
+  color: #011627;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2EC4B6;
+  color: #fff;
+}
+
+/* لیست‌ها */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

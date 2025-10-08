@@ -1,0 +1,107 @@
+/* حذف فاصله پیش‌فرض */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #011627; /* بک‌گراند کل صفحه */
+}
+
+/* بخش درباره ما */
+.about-section {
+  background-color: #011627; /* رنگ زمینه بخش */
+  color: #FFD166;
+  width: 100%;
+  margin: 0;
+  padding: 4rem 0; /* فقط فاصله عمودی */
+  box-sizing: border-box;
+
+  /* افکت لود Slide-Up */
+  animation: slideUp 0.8s ease forwards;
+  transform: translateY(40px);
+  opacity: 0;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* کانتینر داخلی */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto; /* وسط‌چین کردن */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 0 2rem; /* فاصله چپ/راست داخل محتوای بخش */
+  box-sizing: border-box;
+}
+
+/* متن درباره ما */
+.about-text {
+  flex: 1;
+  direction: rtl;
+  font-family: 'Vazirmatn', sans-serif;
+  line-height: 2;
+  color: #2EC4B6;
+}
+
+/* جای‌خالی تصویر */
+.about-image{
+ 
+  margin: 0;               /* حذف هر گونه فاصله بیرونی */
+  padding: 0;              /* حذف فاصله داخلی */
+  border: none;            /* حذف هر گونه بوردر */
+  background-color: #011627; /* هم‌رنگ کردن بک‌گراند با سایت */
+  display: flex;
+  justify-content: center; /* وسط‌چین کردن داخل بخش */
+  align-items: center;
+   
+}
+.about-image img {
+max-width: 100%;
+max-height: 350px;
+border-radius: 20px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+/* حالت موبایل */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+.quote-box {
+  background: rgba(46, 196, 182, 0.1); /* Teal کم‌رنگ */
+  padding: 1.5rem 2rem;
+  border-left: 4px solid #FFD166; /* طلایی */
+  border-radius: 8px;
+  animation: slideFade 0.8s ease-out forwards;
+}
+
+.quote-box p {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* انیمیشن ورود */
+@keyframes slideFade {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
